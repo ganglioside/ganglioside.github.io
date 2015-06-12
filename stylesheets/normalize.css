@@ -7,7 +7,7 @@
  */
 @font-face{
   font-family: 'NSKR400'; /* 폰트 패밀리 이름 부여 */
-  src: url('stylesheets/font/NSKR400.woff') format('woff'); /*폰트 파일 주소*/
+  src: url('./font/NSKR400.woff') format('woff'); /*폰트 파일 주소*/
   font-weight: normal;
   font-style: normal;
 }
