@@ -17,6 +17,10 @@ a {
   a:hover {
     text-decoration: underline; }
 
+h3 {
+	font-family: "NSKR700"
+}
+
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
