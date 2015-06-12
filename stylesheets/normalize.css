@@ -5,9 +5,14 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+@font-face{
+  font-family: NSKR400; /* 폰트 패밀리 이름 부여 */
+  src: url(stylesheets/font/NSKR400.woff); /*폰트 파일 주소*/
+}
+
 
 html {
-  font-family: sans-serif; /* 1 */
+  font-family: NSKR400; /* 1  sans-serif */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
