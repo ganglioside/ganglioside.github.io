@@ -5,6 +5,7 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+
 @font-face{
   font-family: 'NSKR400'; /* 폰트 패밀리 이름 부여 */
   src: url('./font/NSKR400.woff') format('woff'); /*폰트 파일 주소*/
@@ -12,15 +13,11 @@
   font-style: normal;
 }
 
-@font-face{
-  font-family: 'NSKR700'; /* 폰트 패밀리 이름 부여 */
-  src: url('./font/NSKR700.woff') format('woff'); /*폰트 파일 주소*/
-  font-weight: normal;
-  font-style: normal;
-}
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700,100);
+/*Roboto Slab 폰트를 추가함. font-family: 'Roboto Slab', serif; */
 
 html {
-  font-family: "NSKR400"; /* 1  sans-serif */
+  font-family: 'Roboto Slab', serif; /* 1  sans-serif */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
