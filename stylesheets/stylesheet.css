@@ -1,10 +1,33 @@
+@font-face{
+	font-family: 'NSKR100'; /* 폰트 패밀리 이름 부여 */
+	src: url('stylesheets/font/NSKR100.woff'); /*폰트 파일 주소*/
+
+	font-family: 'NSKR200'; /* 폰트 패밀리 이름 부여 */
+	src: url('stylesheets/font/NSKR200.woff'); /*폰트 파일 주소*/
+
+	font-family: 'NSKR300'; /* 폰트 패밀리 이름 부여 */
+	src: url('stylesheets/font/NSKR300.woff'); /*폰트 파일 주소*/
+
+	font-family: 'NSKR400'; /* 폰트 패밀리 이름 부여 */
+	src: url('stylesheets/font/NSKR400.woff'); /*폰트 파일 주소*/
+
+	font-family: 'NSKR500'; /* 폰트 패밀리 이름 부여 */
+	src: url('stylesheets/font/NSKR500.woff'); /*폰트 파일 주소*/
+
+	font-family: 'NSKR600'; /* 폰트 패밀리 이름 부여 */
+	src: url('stylesheets/font/NSKR600.woff'); /*폰트 파일 주소*/
+
+	font-family: 'NSKR700'; /* 폰트 패밀리 이름 부여 */
+	src: url('stylesheets/font/NSKR700.woff'); /*폰트 파일 주소*/
+}
+
 * {
   box-sizing: border-box; }
 
 body {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "NSKR400", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
   line-height: 1.5;
   color: #606c71; }
