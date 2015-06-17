@@ -6,17 +6,8 @@
  *    user zoom.
  */
 
-/**
- @font-face{
-  font-family: 'NSKR400';
-  src: url('./font/NSKR400.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-*/
-
 html {
-  font-family: 'Lora', sans-serif; /* 1  sans-serif */
+  font-family: sans-serif; /* 1  sans-serif */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -30,7 +21,6 @@ body {
 }
 
 h3 {
-  font-family: 'Lora';
   font-style: bold;
 }
 
