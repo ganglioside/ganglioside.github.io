@@ -1,13 +1,13 @@
-/*제목3 폰트*/
-@import url(http://fonts.googleapis.com/css?family=Droid+Serif:700italic);
-/*본문 폰트*/
-@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic);/*
-로컬 폰트 사용법
+/*Body Font*/
 @font-face{
-  font-family: 'NanumGothic';
-  src: url(../font/NanumGothic.ttf) format('truetype');
+  font-family: 'DroidSerif';
+  src: url(../font/Droid_Serif/DroidSerif-BoldItalic.ttf) format('truetype');
 }
-*/
+/*Title3 Font*/
+@font-face{
+  font-family: 'PlayfairDisplay';
+  src: url(../font/Playfair_Display/PlayfairDisplay-Regular.ttf) format('truetype');
+}
 
 * {
   box-sizing: border-box; }
@@ -15,7 +15,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Playfair Display', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'PlayfairDisplay', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
   line-height: 1.5;
   color: #606c71; }
@@ -27,7 +27,7 @@ a {
     text-decoration: underline; }
 
 h3 {
-  font-family: 'Droid Serif';
+  font-family: 'DroidSerif';
 	font-style: bold, italic;
 }
 
